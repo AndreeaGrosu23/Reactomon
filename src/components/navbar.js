@@ -1,11 +1,13 @@
 import React from 'react';
 import { NavLink} from 'react-router-dom';
-import PokemonList from './pokemons';
-import TypeList from './types';
 
 export default function () {
     return (
-        <div>
+        <div className="Navbar" style= {{
+            padding: 20,
+            background: "#FF4236",
+            color: "white"
+        }}> 
             <div>
                 <NavLink to="/pokemons">
                     PokemonList

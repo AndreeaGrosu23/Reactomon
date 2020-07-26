@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from './navbar';
 import PageContent from './page-content';
+import PokemonList from './pokemons';
 
 export default class App extends Component {
 
@@ -9,6 +10,7 @@ export default class App extends Component {
       <div>
         <Navbar />
         <PageContent />
+        <PokemonList />
       </div>
     );
   } 
