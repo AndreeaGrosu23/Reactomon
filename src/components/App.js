@@ -1,24 +1,16 @@
 import React, { Component } from 'react';
+import Navbar from './navbar';
+import PageContent from './page-content';
 
-
-class App extends Component {
-
-  constructor(props) {
-    super(props);
-    this.state = {
-      items: [],
-      isLoaded: false,
-    }
-  }
+export default class App extends Component {
 
   render() {
     return (
       <div>
-        hello
+        <Navbar />
+        <PageContent />
       </div>
     );
   } 
 
 }
-
-export default App; 
