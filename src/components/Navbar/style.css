@@ -1,5 +1,10 @@
 .Navbar {
     padding: 20px;
-    background: #FF4236;
+    background: greenyellow;
     color: white;
 }
+
+.submenu {
+    display: flex;
+    justify-content: center;
+  }
